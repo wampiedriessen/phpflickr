@@ -17,6 +17,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
+
+namespace wampiedriessen\phpFlickr;
+
 if ( !class_exists('phpFlickr') ) {
 	if (session_id() == "") {
 		@session_start();
